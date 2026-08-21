@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="flag-red" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#dc2626" />
+    </linearGradient>
+    <linearGradient id="flag-gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <!-- Background rounded squircle -->
+  <rect width="64" height="64" rx="16" fill="#1c1917" />
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#0c0a09" stroke="#d97706" stroke-width="1.5" stroke-opacity="0.4" />
+  
+  <!-- Spanish Flag Tri-stripes Ribbon / Chat Bubble -->
+  <path d="M16 18 C16 15 18 13 21 13 L43 13 C46 13 48 15 48 18 L48 24 L16 24 Z" fill="url(#flag-red)" />
+  <rect x="16" y="24" width="32" height="14" fill="url(#flag-gold)" />
+  <path d="M16 38 L48 38 L48 43 C48 46 46 48 43 48 L28 48 L20 54 L22 48 L21 48 C18 48 16 46 16 43 Z" fill="url(#flag-red)" />
+  
+  <!-- Central 'H' Letter in bold white with subtle shadow -->
+  <text x="32" y="34.5" font-family="-apple-system, BlinkMacSystemFont, 'Outfit', 'Inter', sans-serif" font-size="16" font-weight="900" text-anchor="middle" dominant-baseline="central" fill="#1c1917">H</text>
+  
+  <!-- Sparkle Accent -->
+  <path d="M46 12 L47.5 15.5 L51 17 L47.5 18.5 L46 22 L44.5 18.5 L41 17 L44.5 15.5 Z" fill="#fbbf24" />
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Hablamos - Learn Spanish & AI Language Tutor",
+  "description": "Comprehensive Spanish learning platform featuring everyday, medical, and business tracks, interactive AI conversational roleplays, comprehensible input stories, spaced-repetition vocabulary, and grammar mastery.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
